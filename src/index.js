@@ -15,6 +15,12 @@ const getDataFromPuppeteer = async () => {
 			path: 'src/pdfs/website.pdf'
 		});
 
+// Test first in browser console, something like:
+//document.getElementsByClassName('RecentCourseVideo-content')[0].innerText
+
+		const platziCourseTitle = await page.evaluate(() => document.getElementsByClassName('RecentCourseVideo-content')[0].children[0].innerText);
+
+		console.log(platziCourseTitle);
 		console.log('Puppeteer End');
 		await browser.close();
 
