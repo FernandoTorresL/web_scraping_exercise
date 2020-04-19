@@ -1,0 +1,15 @@
+{
+  "name": "web_scraping_exercise",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Fernando Torres <fertorresmx@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "puppeteer": "^3.0.0"
+  }
+}
